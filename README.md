@@ -67,7 +67,7 @@ iqtree2 -s $r1.pal2nal -m TEST -bb 1000 -alrt 1000
 ```
 
 ## Codeml
-PAML (Yang, 2007) is used to detect positively selected genes using the branch-site model.
+PAML is used to detect positively selected genes using the branch-site model.
 
 The foreground branch to test for positive selection must be tagged with #1. Tag your branch of interest with:
 
