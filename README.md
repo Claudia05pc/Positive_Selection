@@ -107,7 +107,7 @@ After correction, retain genes with significant p-values:
 Run the following script to generate a summary table that includes:
 - Gene names identified as being under positive selection
 - Alignment lengths
-- Amino acid sites under positive selection based on Bayes Empirical Bayes (BEB) analysis with probabilities greater than 0.9
+- Amino acid sites under positive selection based on Bayes Empirical Bayes (BEB) analysis with probabilities greater than 0.95
   
 ```
 bash get_AA_lenght_and_AA_selected.sh
