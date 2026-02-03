@@ -5,7 +5,7 @@
 
 This repository contains a pipeline to detect signatures of positive selection in protein-coding genes using comparative genomics. The workflow starts from predicted proteomes and identifies high-confidence one-to-one orthologs across multiple species with high-quality genome assemblies.
 
-Orthologous protein sequences are aligned using Clustal Omega, and codon alignments are generated from the corresponding transcript sequences with PAL2NAL, with gaps removed. Phylogenetic trees are then inferred from the codon alignments using IQ-TREE.
+Orthologous protein sequences are aligned using Clustal Omega, and codon alignments are generated from the corresponding transcript sequences with PAL2NAL, with gaps removed. Phylogenetic trees are then inferred from the codon alignments using IQ-TREE2.
 
 Positive selection is detected using PAML (codeml), and p-values are corrected for multiple testing using the Benjamini–Hochberg procedure. To facilitate downstream analysis, an additional script generates a summary table reporting genes under positive selection, alignment lengths, and amino acid sites inferred to be positively selected based on Bayes Empirical Bayes (BEB) probabilities greater than 0.95.
 
